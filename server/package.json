@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "node": "10.8.0",
+    "npm": "6.2.0"
   },
-  "author": "",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Paul Bovis",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
